@@ -1,0 +1,21 @@
+:root {
+  --main-color: #96242f;
+}
+
+.btn-main {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.btn-xxl {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.btn-xxl:hover {
+  background-color: #7c1f26;
+}
+
+.border-main {
+  border-color: var(--main-color) !important;
+}
