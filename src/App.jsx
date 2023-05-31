@@ -86,6 +86,7 @@ function App() {
                   variant="outline-main"
                   size="lg"
                   className="btn outline-main"
+                  href="#contactUs"
                 >
                   Contact Us Now
                 </Button>
@@ -244,7 +245,7 @@ function App() {
               </ListGroup>
             </Col>
             <Col lg="5" sm="12" className="text-center mt-5">
-              <Form className="mt-5">
+              <Form id="contactUs" className="mt-5">
                 <Form.Group className="mb-3" controlId="formContact.name">
                   <Form.Label>Name</Form.Label>
                   <Form.Control

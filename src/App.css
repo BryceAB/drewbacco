@@ -61,7 +61,7 @@ p {
   background-color: var(--main-color);
   color: var(--second-color);
   border: none;
-  height: 60vh;
+  height: 100%;
 }
 
 .bg-hero {
@@ -127,9 +127,7 @@ p {
     font-size: 24px;
     margin: 0.2rem;
   }
-  .bg-main {
-    height: 100vh;
-  }
+
   .negative-margin {
     margin-top: -250px;
   }
@@ -143,9 +141,6 @@ p {
     font-size: 1rem;
   }
 
-  .bg-main {
-    height: 100vh;
-  }
   .hero-card {
     margin-top: 0 !important;
   }
