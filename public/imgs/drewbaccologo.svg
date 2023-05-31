@@ -26,13 +26,13 @@
      showgrid="false"
      inkscape:zoom="5.7513468"
      inkscape:cx="233.42359"
-     inkscape:cy="43.120335"
+     inkscape:cy="43.294207"
      inkscape:window-width="1920"
      inkscape:window-height="995"
      inkscape:window-x="1920"
      inkscape:window-y="56"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-global="false">
@@ -189,7 +189,7 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 200.07584,77.236388 -8.572,-4.933798 -0.0132,-9.890471 8.5588,-4.956673 8.572,4.933798 0.0132,9.890471 z"
-       transform="matrix(22.946725,0,0,3.0600925,-4390.833,-141.56209)" />
+       transform="matrix(22.946725,0,0,3.002837,-4390.833,-137.13988)" />
   </g>
   <g
      inkscape:groupmode="layer"
