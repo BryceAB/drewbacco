@@ -53,11 +53,11 @@ function App() {
               id="basic-navbar-nav"
               className="justify-content-end pb-3"
             >
-              <Nav.Link href="tel:(254)%20717-5989">
+              <Nav.Link className="navLink" href="tel:(254)%20717-5989">
                 <Icon.Telephone className="icon-main" />
                 <Navbar.Text>(254) 717-5989</Navbar.Text>
               </Nav.Link>
-              <Nav.Link href="mailto:andrewb@drewbacco.com">
+              <Nav.Link className="navLink" href="mailto:andrewb@drewbacco.com">
                 <Icon.Envelope className="icon-main" />
                 <Navbar.Text>andrewb@drewbacco.com</Navbar.Text>
               </Nav.Link>
@@ -218,13 +218,13 @@ function App() {
                 Contact Us
               </h2>
               <ListGroup>
-                <ListGroup.Item className="mt-5 bg-color-main">
+                <ListGroup.Item className="mt-5 bg-color-main navLink">
                   <a className="contact-link" href="tel:(254)%20717-5989">
                     <Icon.Telephone className="icon-second" />
                     (254) 717-5989
                   </a>
                 </ListGroup.Item>
-                <ListGroup.Item className="mt-5 bg-color-main">
+                <ListGroup.Item className="mt-5 bg-color-main navLink">
                   <a
                     className="contact-link"
                     href="mailto:andrewb@drewbacco.com"
