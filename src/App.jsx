@@ -12,6 +12,7 @@ import Carousel from "react-bootstrap/Carousel";
 import ListGroup from "react-bootstrap/ListGroup";
 import * as Icon from "react-bootstrap-icons";
 import { Form } from "react-bootstrap";
+import { ReactComponent as DrewbaccoLogo } from "../public/imgs/drewbaccologo.svg";
 // import {} from "react-bootstrap";
 
 function App() {
@@ -42,14 +43,10 @@ function App() {
           className="border-bottom border-main border-5"
         >
           <Container>
-            <Navbar.Brand className="pb-3">
-              <img
-                src="/imgs/drewbaccologo.svg"
-                width="400"
-                height="100"
-                className="d-inline-block align-top"
-                alt="Drewbacco logo"
-              />
+            <Navbar.Brand className="pb-3 svg-relative-container">
+              <div className="svg-absolute-container">
+                <DrewbaccoLogo />
+              </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse
